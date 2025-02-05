@@ -60,14 +60,6 @@ The **Internet** is a **global network of interconnected networks** that allows 
 
 ## 
 
-## 
-
-## 
-
-## 
-
-## 
-
 ## **1\. OSI Model (Open Systems Interconnection Model)**
 
 The **OSI model** is a **theoretical** framework that describes how different networking protocols interact. It has **7 layers**, each with a specific role.
@@ -124,7 +116,7 @@ The **TCP/IP model** is a **practical model** used in real-world networking (e.g
 | **Protocols** | General | TCP, IP, HTTP, etc. |
 | **Structure** | More detailed | More streamlined |
 
-![][image1]  
+
 ---
 
 ### **What Are Protocols?**
@@ -562,7 +554,7 @@ In cloud environments (like AWS, Azure), load balancing is typically provided as
 ### **1\. HTTP (Hypertext Transfer Protocol)**
 
 * **Port Number:** **80**  
-* **Purpose:** HTTP is the foundational protocol used for transferring data over the web. It’s the protocol most commonly used by web servers to serve content to clients (such as web browsers).  
+* **Purpose:** HTTP is a fundamental protocol of the Internet, enabling the transfer of data between a client and a server. It is the foundation of data communication for the World Wide Web.  
 * **Relevance to DevOps:**  
   * **Web Applications:** Most web applications rely on HTTP to communicate between clients and servers.  
   * **CI/CD Pipelines:** HTTP is frequently used in DevOps pipelines for interactions with web servers, APIs, and internal services.  
@@ -916,9 +908,3 @@ Example:
 dig google.com
 
 **Explanation:** Returns DNS records, including the IP address, mail servers, and name servers for the given domain.
-
----
-# Networking
-#### Hypertext Transfer Protocol (HTTP)
-HTTP is a fundamental protocol of the Internet, enabling the transfer of data between a client and a server. It is the foundation of data communication for the World Wide Web.
-HTTP provides a standard between a web browser and a web server to establish communication. It is a set of rules for transferring data from one computer to another. Data such as text, images, and other multimedia files are shared on the World Wide Web. Whenever a web user opens their web browser, the user indirectly uses HTTP. It is an application protocol that is used for distributed, collaborative, hypermedia information systems
